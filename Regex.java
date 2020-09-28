@@ -14,7 +14,7 @@ public class Regex {
        
         while (true) {
             
-            String pincode="^\\d{6}";
+            String pincode="^\\d{6}$";
            
             Pattern pattern = Pattern.compile(pincode);
             Scanner s2=new Scanner(System.in);
