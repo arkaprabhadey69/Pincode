@@ -13,8 +13,9 @@ public class Regex {
         System.out.println("Welcome to Pincode problem");
        
         while (true) {
+            //String x="^(\\d\\s*){6}$";
             
-            String pincode="^\\d{6}$";
+             String pincode="^\\d{3}(\\s{0,1}\\d{3})$";
            
             Pattern pattern = Pattern.compile(pincode);
             Scanner s2=new Scanner(System.in);
